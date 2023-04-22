@@ -23,7 +23,7 @@ def parse_args():
     parser.add_argument('--image_dir', default='/content/gdrive/MyDrive/MVTec_hazel/hazelnut', type=str)
 
     parser.add_argument('--image_size', default='(256,256)', type=str)
-    parser.add_argument('--num_epochs', default=2000, type=int)
+    parser.add_argument('--num_epochs', default=30, type=int)
     parser.add_argument('--batch_size', default=256, type=int)
     parser.add_argument('--lr', default=1e-4, type=float)
     parser.add_argument('--train_ratio', default=0.9, type=float)
